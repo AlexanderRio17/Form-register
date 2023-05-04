@@ -9,7 +9,7 @@ public member() {
 public member(String fname, String id, String email, String mobile, String address) {
 	super();
 	this.fname = fname;
-	Id = id;
+	this.Id = id;
 	this.email = email;
 	this.mobile = mobile;
 	this.address = address;
@@ -28,7 +28,7 @@ public String getId() {
 }
 
 public void setId(String id) {
-	Id = id;
+	this.Id = id;
 }
 
 public String getEmail() {

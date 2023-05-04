@@ -73,7 +73,7 @@ public class Insert extends HttpServlet {
 		String email=request.getParameter("email");
 		String mobile=request.getParameter("mobile");
 		String address=request.getParameter("address");
-		member mem= new member(name,id,email,mobile,address);
+		member mem= new member(name, id, email, mobile, address);
 		insertdata ins=new insertdata();
 		String result=ins.entry(mem);
 		response.getWriter().print(result); 
